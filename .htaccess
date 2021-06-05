@@ -2,8 +2,3 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-Options +FollowSymLinks -MultiViews
-# Turn mod_rewrite on
-RewriteBase /
-
-RewriteRule ^Portfolios/(.*)$ /$1 [L,NC,R]
