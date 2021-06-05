@@ -349,6 +349,15 @@ form {
   margin-bottom: 2.5rem; }
 
 
+  /* Span
+  --------------------------------- */
+
+  .ul {
+    color: #333333; 
+    border-bottom: 4px solid #66CCFF;
+  }
+
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
